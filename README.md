@@ -2,6 +2,8 @@
 
 This is the official repository of the [NAACL 2025 paper](https://arxiv.org/abs/2406.12334) _"What Did I Do Wrong? Quantifying LLMs’ Sensitivity and Consistency to Prompt Engineering"_.
 
+![Web GUI Screenshot](imgs/web_gui.png)
+
 ### Citing our work
 
 If you found our metrics useful, please cite our work:
@@ -309,9 +311,6 @@ consistency, consistency_matrix = metrics.compute_consistency(traces, dataset_na
 # 3. How to visualize Sensitivity and Consistency
 
 We provide a Web GUI, based on the [Streamlit](https://streamlit.io/) framework, to visualize the two metrics and analyse the results of the experiments.
-
-![Web GUI Screenshot](imgs/web_gui.png)
-
 
 ```bash
 # cd sensitivity-consistency-LLM
