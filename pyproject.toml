@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "LLMetrics"
+version = "0.1.0"
+description = ""
+authors = ["Federico Errica <federico.errica@neclab.eu>", "Giuseppe Siracusano <giuseppe.siracusano@neclab.eu>", "Davide Sanvito <davide.sanvito@neclab.eu>", "Roberto Bifulco <roberto.bifulco@neclab.eu>"]
+readme = "README.md"
+packages = [
+    { include = "llmetrics" },
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+instructor = "^1.7.2"
+pydantic = "^2.10.5"
+pandas = "^2.2.3"
+langfuse = "^2.57.10"
+pygithub = "^2.5.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.43.2"
+plotly = "^6.0.1"
+networkx = "^3.4.2"
+matplotlib = "^3.10.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
