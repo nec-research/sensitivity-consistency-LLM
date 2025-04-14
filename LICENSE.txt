@@ -1,6 +1,5 @@
        Sensitivity and Consistency of Large Language Models
 	  
-  File:     estimator.py, evaluator.py, util.py 
   Authors:  Federico Errica (federico.errica@neclab.eu) 
             Giuseppe Siracusano (giuseppe.siracusano@neclab.eu)
 	    Davide Sanvito (davide.sanvito@neclab.eu)
