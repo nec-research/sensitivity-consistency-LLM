@@ -2,6 +2,8 @@
 
 This is the official repository of the [NAACL 2025 paper](https://arxiv.org/abs/2406.12334) _"What Did I Do Wrong? Quantifying LLMs’ Sensitivity and Consistency to Prompt Engineering"_.
 
+> ⚠️ The **LLMetric** Python package, integrated with Langfuse, is available in the [langfuse_integration](https://github.com/nec-research/sensitivity-consistency-LLM/tree/langfuse_integration) branch.
+
 ### Citing our work
 
 If you found our metrics useful, please cite our work:
