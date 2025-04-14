@@ -83,6 +83,7 @@ Clone this repository and run `poetry install`.
 
 ```sh
 # git clone https://github.com/nec-research/sensitivity-consistency-LLM.git
+# git clone --branch langfuse_integration https://github.com/nec-research/sensitivity-consistency-LLM.git
 # cd sensitivity-consistency-LLM
 poetry install
 ```
